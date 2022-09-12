@@ -75,6 +75,26 @@ body {
   background: #000;
   animation-timing-function: cubic-bezier(0, 1, 1, 0);
 }
+.custom-logo__leaf {
+  color: #00b1ae;
+}s
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.custom-logo {
+  display: block;
+  max-width: 100%;
+}
+.custom-logo svg {
+  display: block;
+  margin-top: -8%;
+  width: 190px;
+  color: rgb(0, 0, 0);
+}
+.custom-logo path {
+  fill: currentColor;
+}
 .preloader .lds-ellipsis div:nth-child(1) {
   left: 8px;
   animation: lds-ellipsis1 0.6s infinite;
@@ -128,6 +148,13 @@ body {
   background: #0366d6;
   color: #fff;
   text-shadow: none;
+}
+.html{
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #6e6565;
+  background: #111418 !important;
 }
 
 code {
